@@ -17,6 +17,7 @@ network:
     - defaults
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 safe-outputs:
   create-pull-request:
     max: 1
@@ -33,6 +34,7 @@ Refresh `site/content/github-info.md` for Mona and propose the changes in a pull
 2. Use the `web-fetch` tool to read:
    - https://github.blog/latest/
    - https://github.blog/changelog/
+    - https://awesome-copilot.github.com/workflows/
 3. Use GitHub repository API tools to read repository guidance and reference files. Do not use terminal, CLI, or sandboxed commands for that repository guidance.
 
 ## Update and review
